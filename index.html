@@ -86,6 +86,11 @@
      fbq('init', '729320004163938');
     fbq('track', 'PageView');
 
+
+        function onClick() {
+        fbq('trackSingleCustom', '<PIXEL_ID>', 'PageView');
+        };
+
         fbq('track', 'StartTrial', {value: '0.00', currency: 'USD', predicted_ltv: '0.00'});
 
     </script>
@@ -124,7 +129,7 @@
                                         <div class="ds-nav-contact-button ds-nav-button"><a href="https://ig.socialdream.co/login" class="btn btn--large btn--transparent-light"> LOG IN </a></div>
                                     </li>
                                     <li class="col col-middle col-fixed">
-                                        <div class="-last ds-nav-button"><a href="https://socialdream.chargebee.com/hosted_pages/plans/copy_of_copy_of_platinum-package11" class="btn btn--large btn--blue"> START YOUR 7 DAY FREE TRIAL </a></div>
+                                        <div class="-last ds-nav-button"><button onClick="onClick()"<a href="https://socialdream.chargebee.com/hosted_pages/plans/copy_of_copy_of_platinum-package11" class="btn btn--large btn--blue"> START YOUR 7 DAY FREE TRIAL </a></button></div>
                                     </li>
                                 </ul>
                             </div>
