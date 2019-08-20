@@ -87,11 +87,10 @@
     fbq('track', 'PageView');
 
 
-        function onClick() {
-        fbq('trackSingleCustom', '<PIXEL_ID>', 'PageView');
+          function onClick() {
+            fbq('track', 'StartTrial', {value: '0.00', currency: 'USD', predicted_ltv: '0.00'});
         };
 
-        fbq('track', 'StartTrial', {value: '0.00', currency: 'USD', predicted_ltv: '0.00'});
 
     </script>
     <noscript>
@@ -129,7 +128,7 @@
                                         <div class="ds-nav-contact-button ds-nav-button"><a href="https://ig.socialdream.co/login" class="btn btn--large btn--transparent-light"> LOG IN </a></div>
                                     </li>
                                     <li class="col col-middle col-fixed">
-                                        <div class="-last ds-nav-button"><button onClick="onClick()"<a href="https://socialdream.chargebee.com/hosted_pages/plans/copy_of_copy_of_platinum-package11" class="btn btn--large btn--blue"> START YOUR 7 DAY FREE TRIAL </a></button></div>
+                                        <div class="-last ds-nav-button"><button onClick="onClick()"><a href="https://socialdream.chargebee.com/hosted_pages/plans/copy_of_copy_of_platinum-package11" class="btn btn--large btn--blue"> START YOUR 7 DAY FREE TRIAL </a></button></div>
                                     </li>
                                 </ul>
                             </div>
@@ -151,7 +150,7 @@
                                     <br> we'll handle the rest.
                                     <div class="grid">
                                         <div class="col col-fixed col-middle col-sm sp-marginbottom--sm">
-                                            <a href="https://socialdream.chargebee.com/hosted_pages/plans/copy_of_copy_of_platinum-package11" style="padding: 19px 18px 16px 18px;display: inline-flex;" class="btn btn--blue btn--large">START YOUR 7 DAY FREE TRIAL </a>
+                                            <button onClick="onClick()"><a href="https://socialdream.chargebee.com/hosted_pages/plans/copy_of_copy_of_platinum-package11" style="padding: 19px 18px 16px 18px;display: inline-flex;" class="btn btn--blue btn--large">START YOUR 7 DAY FREE TRIAL </a></button>
                                         </div>
                                     </div>
                             </div>
@@ -424,7 +423,7 @@
                 <div class="row">
                     <div class="grid grid-mobilegutter grid-center">
                         <div class="col col-fixed col-middle col-sm sp-marginbottom--sm">
-                            <a href="https://socialdream.chargebee.com/hosted_pages/plans/copy_of_copy_of_platinum-package11" style="padding: 19px 18px 16px 18px;display: inline-flex;" class="btn btn--blue btn--large"> START YOUR 7 DAY FREE TRIAL </a>
+                          <button onClick="onClick()">  <a href="https://socialdream.chargebee.com/hosted_pages/plans/copy_of_copy_of_platinum-package11" style="padding: 19px 18px 16px 18px;display: inline-flex;" class="btn btn--blue btn--large"> START YOUR 7 DAY FREE TRIAL </a></button>
                         </div>
                     </div>
                 </div>
@@ -506,7 +505,7 @@
                             <p class="h h--2 sp-marginbottom--md">Exponentially grow your following</p>
                             <p class="sh sh--2 sp-marginbottom--2xl">You make the content, we'll handle everything else. </p>
                             <div class="grid">
-                                <div class="col col-fixed col-middle col-sm sp-marginbottom--sm"><a href="https://socialdream.chargebee.com/hosted_pages/plans/copy_of_copy_of_platinum-package11" data-track="Homepage CTA" data-track-label="Start Building - Bottom" data-track-category="Sign Up" class="btn btn--blue btn--large"> START YOUR 7 DAY FREE TRIAL</a></div>
+                              <button onClick="onClick()"><div class="col col-fixed col-middle col-sm sp-marginbottom--sm"><a href="https://socialdream.chargebee.com/hosted_pages/plans/copy_of_copy_of_platinum-package11" data-track="Homepage CTA" data-track-label="Start Building - Bottom" data-track-category="Sign Up" class="btn btn--blue btn--large"> START YOUR 7 DAY FREE TRIAL</a></div></button>
                             </div>
                         </div>
                     </div>
@@ -544,7 +543,9 @@
                                     </div>
                                 </div>
                                 <div class="sp-paddinghorizontal--xl">
-                                    <div class="col col-fixed"><a style="width: 100%;margin: 0 0 36px 0;padding: 16px 18px 16px 18px;" href="https://socialdream.chargebee.com/hosted_pages/plans/copy_of_copy_of_platinum-package11" class="btn btn--blue btn--large">START YOUR 7 DAY FREE TRIAL</a></div>
+                                    <div class="col col-fixed">
+                                      <button onClick="onClick()"><a style="width: 100%;margin: 0 0 36px 0;padding: 16px 18px 16px 18px;" href="https://socialdream.chargebee.com/hosted_pages/plans/copy_of_copy_of_platinum-package11" class="btn btn--blue btn--large">START YOUR 7 DAY FREE TRIAL</a></button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -573,7 +574,7 @@
                                     </div>
                                 </div>
                                 <div class="sp-paddinghorizontal--xl">
-                                    <div class="col col-fixed"><a style="width: 100%;margin: 0 0 36px 0;padding: 16px 18px 16px 18px;" href="https://socialdream.chargebee.com/hosted_pages/plans/copy_of_co2py_of_platinum-package11" class="btn btn--blue btn--large">START YOUR 7 DAY FREE TRIAL</a></div>
+                                    <div class="col col-fixed"><button onClick="onClick()"><a style="width: 100%;margin: 0 0 36px 0;padding: 16px 18px 16px 18px;" href="https://socialdream.chargebee.com/hosted_pages/plans/copy_of_co2py_of_platinum-package11" class="btn btn--blue btn--large">START YOUR 7 DAY FREE TRIAL</a></button></div>
                                 </div>
                             </div>
                         </div>
@@ -594,7 +595,7 @@
             <div class="row">
                 <div class="grid grid-mobilegutter grid-center">
                     <div class="col col-fixed">
-                        <div class="sp-marginbottom--sm"><a data-track-category="Pricing" href="https://socialdream.chargebee.com/hosted_pages/plans/copy_of_copy_of_platinum-package11" class="btn btn--large btn--blue">START YOUR 7 DAY FREE TRIAL</a></div>
+                        <div class="sp-marginbottom--sm"><button onClick="onClick()"><a data-track-category="Pricing" href="https://socialdream.chargebee.com/hosted_pages/plans/copy_of_copy_of_platinum-package11" class="btn btn--large btn--blue">START YOUR 7 DAY FREE TRIAL</a></button></div>
                     </div>
                     <div class="col col-fixed">
                     </div>
@@ -645,7 +646,7 @@
                                                 <div class="sp-marginright--md"><img src="https://d33wubrfki0l68.cloudfront.net/4c84e0abdfacbc7bfdd3986a7dd40b5e13cc70d7/8bf32/assets/images/material/jade/round-check_circle-24px.svg" class="img-icon"></div> Real Customer Reviews</div>
                                             <div class="sp-marginbottom--lg flexbox-center -vertical">
                                                 <div class="sp-marginright--md"><img src="https://d33wubrfki0l68.cloudfront.net/4c84e0abdfacbc7bfdd3986a7dd40b5e13cc70d7/8bf32/assets/images/material/jade/round-check_circle-24px.svg" class="img-icon"></div> Less than $2 a day </div>
-                                            <div class="flexbox-center -horizontal sp-margintop--xl"><a href="https://socialdream.chargebee.com/hosted_pages/plans/copy_of_copy_of_platinum-package11" class="btn btn--large btn--blue">START YOUR 7 DAY FREE TRIAL</a></div>
+                                            <div class="flexbox-center -horizontal sp-margintop--xl"><button onClick="onClick()"><a href="https://socialdream.chargebee.com/hosted_pages/plans/copy_of_copy_of_platinum-package11" class="btn btn--large btn--blue">START YOUR 7 DAY FREE TRIAL</a></button></div>
                                         </div>
                                     </div>
                                 </div>
@@ -799,7 +800,7 @@
                     <div class="w-100 bt b--white">
                         <ul class="grid grid-between ds-mobile-button-cta">
                             <li class="col"><a href="https://ig.socialdream.co/login" class="btn btn--large btn--expanded btn--transparent-dark"> LOG IN </a></li>
-                            <li class="col"><a data-track="Visit Signup" data-track-category="Sign Up" href="https://socialdream.chargebee.com/hosted_pages/plans/copy_of_copy_of_platinum-package11" class="btn btn--large btn--expanded btn--blue"> FREE TRIAL </a></li>
+                            <li class="col"><button onClick="onClick()"><a data-track="Visit Signup" data-track-category="Sign Up" href="https://socialdream.chargebee.com/hosted_pages/plans/copy_of_copy_of_platinum-package11" class="btn btn--large btn--expanded btn--blue"> FREE TRIAL </a></button></li>
                         </ul>
                     </div>
                 </div>
